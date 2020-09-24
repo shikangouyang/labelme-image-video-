@@ -167,7 +167,7 @@ def main():
     )
     app = QtWidgets.QApplication(sys.argv)
     app.setApplicationName(__appname__)
-    app.setWindowIcon(newIcon("Hanwei_logo"))
+    app.setWindowIcon(newIcon("icon"))
     app.installTranslator(translator)
     win = MainWindow(
         config=config,

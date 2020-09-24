@@ -27,13 +27,13 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    name='Aisono',
+    name='labelme',
     debug=False,
     strip=False,
     upx=True,
     runtime_tmpdir=None,
     console=False,
-    icon='labelme/icons/Hanwei_logo.ico',
+    icon='labelme/icons/icon.ico',
 )
 app = BUNDLE(
     exe,
